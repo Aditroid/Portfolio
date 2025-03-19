@@ -1,7 +1,7 @@
 import Hero from './sections/Hero.jsx';
 import About from './sections/About.jsx';
 import Footer from './sections/Footer.jsx';
-import Navbar from './sections/NavBar.jsx';
+import NavBar from './sections/NavBar.jsx';
 import Contact from './sections/Contact.jsx';
 import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
@@ -10,7 +10,7 @@ import Experience from './sections/Experience.jsx';
 const App = () => {
   return (
     <main className="md:max-w-[75%] w-full mx-auto relative">
-      <Navbar />
+      <NavBar />
       <Hero />
       <About />
       <Projects />
