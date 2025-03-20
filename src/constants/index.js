@@ -180,7 +180,7 @@ export const myProjects = [
       {
         id: 2,
         name: 'Bootstrap',
-        path: 'assets/tailwindcss.png',
+        path: 'assets/bootstrap.png',
       },
       {
         id: 3,
