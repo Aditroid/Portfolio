@@ -157,7 +157,7 @@ export const myProjects = [
   },
   {
     title: 'NewsAPK - Curated News at Your Fingertips',
-    desc: 'NewsHub is a dynamic news website that fetches and organizes the latest articles from various sources, providing users with a seamless browsing experience. Users can click on any article to read the full story on the original news website. The site includes features like infinite scrolling for effortless browsing and a loading bar for a smooth and responsive user experience.',
+    desc: 'NewsAPK is a dynamic news website that fetches and organizes the latest articles from various sources, providing users with a seamless browsing experience. Users can click on any article to read the full story on the original news website. The site includes features like infinite scrolling for effortless browsing and a loading bar for a smooth and responsive user experience.',
     subdesc:
       'Developed using React.js with Bootstrap for styling, it ensures a clean and mobile-friendly interface. A news API is integrated to fetch real-time articles. Additional packages like infinite scroll and a loading bar enhance responsiveness and usability.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
