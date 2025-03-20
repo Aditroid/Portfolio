@@ -404,11 +404,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-    cubePosition: isSmall ? [4, -5, 0] : isMobile ? [-5, 7, -6] : isTablet ? [-6, 4.2, -5] : [-7, 3, 0],
+    cubePosition: isSmall ? [-3, 4, -3] : isMobile ? [-5, 7, -6] : isTablet ? [-6, 4.2, -5] : [-7, 3, 0],
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, -2] : isTablet ? [5, 3, 2] : [5, 2, 5],
     // ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-18, 10, 0],
-    gameboyPosition: isSmall ? [0, 2, 0] : isMobile ? [0.8, -1.2, 16.5 ] : isTablet ? [0.8, -0.9, 17] : [1,-0.6,17.5],
-    targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-7.5, -10, -10] : isTablet ? [-10, -5, -10] : [-13, -13, -10],
+    gameboyPosition: isSmall ? [0.5, -1, 17] : isMobile ? [0.8, -1.2, 16.5 ] : isTablet ? [0.8, -0.9, 17] : [1,-0.6,17.5],
+    targetPosition: isSmall ? [-5, -10, -6] : isMobile ? [-7.5, -10, -10] : isTablet ? [-10, -5, -10] : [-13, -13, -10],
   };
 };
 

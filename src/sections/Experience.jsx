@@ -6,9 +6,11 @@ import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import { workExperiences } from '../constants/index.js';
 import ErrorBoundary from '../components/ErrorBoundary.jsx';
+import { useMediaQuery } from 'react-responsive';
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
+  const isSmall = useMediaQuery({ maxWidth: 440 });
 
   return (
     <section className="c-space mt-20" id="work">
@@ -18,7 +20,7 @@ const WorkExperience = () => {
         <div className="work-container">
           <div className="work-canvas ">
 
-            <Canvas>
+            <Canvas className={`${isSmall ? 'hidden' : 'block'}`}>
               <ambientLight intensity={4} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
