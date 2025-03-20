@@ -99,7 +99,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'Node.js',
-        path: '/assets/nodejs.png',
+        path: '/assets/nodejs2.png',
       },
       {
         id: 4,
@@ -141,7 +141,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'Node.js',
-        path: '/assets/nodejs.png',
+        path: '/assets/nodejs2.png',
       },
       {
         id: 4,
@@ -207,7 +207,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'Next.js',
-        path: '/assets/nextjs.png',
+        path: '/assets/nextjs2.png',
       },
       {
         id: 2,
@@ -217,7 +217,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'Node.js',
-        path: '/assets/nodejs.png',
+        path: '/assets/nodejs2.png',
       },
       {
         id: 4,
@@ -318,7 +318,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'Next.js',
-        path: '/assets/nextjs.png',
+        path: '/assets/nextjs2.png',
       },
       {
         id: 2,
@@ -328,7 +328,7 @@ export const myProjects = [
       {
         id: 3,
         name: 'Node.js',
-        path: '/assets/nodejs.png',
+        path: '/assets/nodejs2.png',
       },
       {
         id: 4,
