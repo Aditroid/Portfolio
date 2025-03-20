@@ -92,9 +92,11 @@ const About = () => {
 
             </div>
             <div>
-              <p className="grid-headtext">I am flexible with work shifts, available for both day and night shifts, and comfortable working at locations close to my residence</p>
-              <p className="grid-subtext">I&apos;m based in New Delhi, India, flexible with a hybrid work mode. Open to both in-office and remote opportunities.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">I&apos;m based in New Delhi, India, flexible with a hybrid work mode. Open to both in-office and remote opportunities</p>
+              <p className="grid-subtext">I am flexible with work shifts, available for both day and night shifts, and comfortable working at locations close to my residence.</p>
+              <a href="#contact">
+              <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+              </a>
             </div>
           </div>
         </div>
@@ -121,7 +123,7 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <a className="grid-subtext text-center" href="#contact">Contact me</a>
+              <p className="grid-subtext text-center" >Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">bora.aditya786@gmail.com</p>

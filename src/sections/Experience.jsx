@@ -13,7 +13,7 @@ const WorkExperience = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 });
 
   return (
-    <section className="c-space mt-20" id="work">
+    <section className="c-space mt-20" id="languages">
       <div className="w-full text-white">
         <p className="head-text">My Coding Experience</p>
 

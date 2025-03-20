@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 /* Custom base styles */
-/* * {
-    scroll-behavior:unset;
-  } */
+html{
+    scroll-behavior:smooth;
+  }
   
 
   body {

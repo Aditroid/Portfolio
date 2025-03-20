@@ -22,7 +22,7 @@ export const navLinks = [
   {
     id: 5,
     name: 'Languages',
-    href: '#work',
+    href: '#languages',
   },
   {
     id: 6,
