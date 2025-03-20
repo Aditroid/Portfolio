@@ -9,7 +9,7 @@ import Experience from './sections/Experience.jsx';
 
 const App = () => {
   return (
-    <main className="md:max-w-[75%] w-full mx-auto relative">
+    <main className="xl:w-[75%] w-full mx-auto relative">
       <NavBar />
       <Hero />
       <About />
