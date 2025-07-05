@@ -43,7 +43,7 @@ const Clients = () => {
           </div>
         ))}
         <div className='flex items-center justify-center'>
-          <a href="https://drive.google.com/uc?export=download&id=1-V79XYAioQFoQ7IsnMfHvUxOK-C0NFcM" download="Aditya_Bora_Resume.pdf">
+          <a href="https://drive.google.com/file/d/16WQ_BPUmXUysgyTkTCwo-eAV4ffWFUKB/view?usp=drive_link">
             <button className='field-btn'
             // onClick={handleSubmit}
             >
