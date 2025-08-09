@@ -43,7 +43,7 @@ const Clients = () => {
           </div>
         ))}
         <div className='flex items-center justify-center'>
-          <a href="https://drive.google.com/file/d/1NNnDFfnaU7XMcKwB-sHVtm_rAFXqMf6c/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1NNnDFfnaU7XMcKwB-sHVtm_rAFXqMf6c/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className='field-btn'
             // onClick={handleSubmit}
             >
